@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation</title>
+<link rel="stylesheet" href="style.css">
+<style>
+	h2{
+	font-family:  Monotype Corsiva;
+	font-size: 28px;
+	}
+	
+	h3{
+	color: #C5B538;
+	}
+	
+	span {
+	font-size: 20px;
+	}
+	
+	#rsvpForm {
+	color:white;
+	}
+
+</style>
+</head>
+
+<body>
+
+<audio autoplay loop>
+<source src="Wedding-Invitation/song.mp3" type="audio/mp3">
+</audio>
+
+<div class="container">
+
+<h1>Wedding Invitation</h1>
+
+
+
+<h2>Hiruni  💕Charith </h2>
+
+
+<div class="couple">
+
+<div class="bride">
+<img src="Bride.jpg">
+<h3>Hiruni Rashmisara</h3>
+<p>Loving Daughter of<br>
+<em>Mr. M L T Fernando &</em><br> 
+<em>Mrs. R A N K Rupasinghe</em></p>
+</div>
+
+<div class="groom">
+<img src="Groom.jpg">
+<h3>Charith Subodha</h3>
+<p>Loving Son of<br>
+<em>Mr. N A A Chandrasiri &</em><br>
+<em>Mrs. A A C Amarasinghe</em></p>
+</div>
+
+</div>
+
+<p class="message">
+Together with their families, they joyfully request the honor of your presence to celebrate the marriage of their beloved children
+</p>
+
+<h3>Wedding Date</h3>
+<p><b><span>14<sup>th</sup> May 2026</b></span></p>
+
+<h3>Time</h3>
+<p>From 9.30 AM – 4.00 PM</p>
+
+<h3>Poruwa Ceremony</h3>
+<p>At 9.40 AM</p>
+
+<h3>Countdown</h3>
+<div id="countdown"></div>
+
+<h3>Venue</h3>
+
+<p><span><b>Hotel Far Inn Village Chilaw</b></span></p>
+<p>Puttalam-Colombo Road, Chilaw</p>
+
+<iframe
+src="https://maps.google.com/maps?q=Hotel%20Far%20Inn%20Village%20Chilaw&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+<div class="contact">
+
+<a href="tel:0776244262">Call Us</a>
+
+<a href="https://wa.me/94705693045">WhatsApp</a>
+
+</div>
+
+</div>
+
+<h2 class ="rsvp">RSVP Confirmation</h2>
+<form id="rsvpForm">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" required>
+  
+  <label for="attending">Will you attend?</label>
+  <select id="attending" required>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+  
+  <button type="submit">Confirm</button>
+</form>
+
+<p id="rsvpMessage" style="color:green; font-weight:bold;"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

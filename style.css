@@ -1,0 +1,121 @@
+
+body{
+font-family: Script MT Bold;
+margin:0;
+text-align:center;
+background:#E0E2DC;
+
+font-family: Arial;
+margin:0;
+text-align:center;
+
+
+background-image: url("w41.jpg");
+background-size: cover;
+background-position: center top;
+background-attachment: fixed;
+background-repeat: no-repeat; 
+}
+
+
+
+.container{
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+padding:20px;
+max-width:700px;
+margin:auto;
+}
+
+h1{
+font-family: Monotype Corsiva;
+font-size:50px;
+color:#DAA520;
+}
+
+
+
+.message{
+font-family: 'Cinzel', serif;
+font-size: 20px;
+margin:20px;
+}
+
+.couple{
+font-family: 'Cinzel', serif;
+font-size:18px;
+line-height:1.6;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin:30px 0;
+
+
+}
+
+.bride{
+ padding: 20px;
+        background: #FFF5EE;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a nice card effect */
+        text-align: center;
+}
+
+.groom{
+ padding: 20px;
+        background: #FFF5EE;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a nice card effect */
+        text-align: center;
+}
+
+.couple img{
+width:160px;
+border-radius:20px;
+}
+
+#countdown{
+font-size:26px;
+color:#e91e63;
+margin:20px;
+}
+
+iframe{
+width:100%;
+height:250px;
+border:0;
+margin-top:20px;
+}
+
+.contact{
+margin-top:30px;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:#e91e63;
+color:white;
+text-decoration:none;
+border-radius:6px;
+hover: green;
+}
+
+.contact a:hover {
+	background: green;
+}
+
+.container{
+padding:20px;
+max-width:700px;
+margin:auto;
+
+background: rgba(255,255,255,0.85);
+border-radius:15px;
+}
+
+.rsvp {
+color:white;	
+}
